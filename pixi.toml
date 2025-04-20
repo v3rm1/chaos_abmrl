@@ -1,0 +1,18 @@
+[workspace]
+authors = ["v3rm1_UiA <varun.ravi.varma@uia.no>"]
+repository = "https://github.com/v3rm1/chaos_abmrl"
+channels = ["conda-forge"]
+name = "chaos_abmrl"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+mesa = ">=3.1.4,<4"
+pytorch = ">=2.6.0,<3"
+numpy = ">=2.2.4,<3"
+scipy = ">=1.15.2,<2"
+scikit-learn = ">=1.6.1,<2"
+pandas = ">=2.2.3,<3"
+matplotlib = ">=3.10.1,<4"
